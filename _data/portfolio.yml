@@ -85,7 +85,7 @@ analyses:
       Statistical analysis plans and longitudinal differential expression with repeated-measures
       linear mixed-effects models across clinical cohorts and control cell lines, with
       ORA and GSEA.
-    tags: [limma, edgeR, DESeq2, mixed models, GSEA]
+    tags: [limma, edgeR, DESeq2, mixed models, ORA, GSEA]
     links: []
     note: Confidential industry work (PYC Therapeutics)
 
@@ -113,7 +113,7 @@ analyses:
     summary: >-
       Contributed to pan-transcriptome analyses showing genotype-dependent transcriptional
       complexity in barley and building a pangenome and pantranscriptome of hexaploid oat.
-    tags: [RNA-seq, Pan-transcriptomics, Salmon, STAR]
+    tags: [RNA-seq, Pan-transcriptomics, Splice-graph, Salmon, STAR]
     links:
       - label: Nature Genetics 2025
         url: https://doi.org/10.1038/s41588-024-02069-y

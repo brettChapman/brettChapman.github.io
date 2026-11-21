@@ -119,7 +119,7 @@ I contribute to international genome consortia for wheat, barley and oat, with p
 
 **Software and computing.** Python, R, SQL, Bash, MATLAB, JavaScript (D3.js), Streamlit; published PyPI packages; Git/GitHub; Nextflow; Docker, Singularity, Conda, pixi, uv, Poetry; HPC (Slurm); AWS, GCP, Azure; AI-assisted development.
 
-**Visualisation and delivery.** Dataiku, Tableau, Power BI, Matplotlib, Seaborn, Plotly, R Shiny and Streamlit dashboards, Jupyter and Quarto reporting; Agile delivery (Asana), Miro.
+**Visualisation and delivery.** Dataiku, Tableau, Power BI, Matplotlib, Seaborn, Plotly, interactive dashboards, Jupyter and Quarto reporting; Agile delivery (Asana), Miro.
 
 ---
 

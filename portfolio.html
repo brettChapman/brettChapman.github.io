@@ -2,17 +2,16 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
-lead: Projects, dashboards, analyses and publications from research and industry. Industry work is described at method level only.
+lead: Projects, analyses and publications from research and industry. Industry work is described at method level only.
 ---
 
 <div class="tabs" role="tablist" aria-label="Portfolio sections">
   <a class="tab" role="tab" href="#projects" data-tab="projects">Projects <span class="count">{{ site.data.portfolio.projects | size }}</span></a>
-  <a class="tab" role="tab" href="#dashboards" data-tab="dashboards">Dashboards <span class="count">{{ site.data.portfolio.dashboards | size }}</span></a>
   <a class="tab" role="tab" href="#analyses" data-tab="analyses">Analyses <span class="count">{{ site.data.portfolio.analyses | size }}</span></a>
   <a class="tab" role="tab" href="#publications" data-tab="publications">Publications <span class="count">{{ site.data.publications | size }}</span></a>
 </div>
 
-{% assign sections = "projects,dashboards,analyses" | split: "," %}
+{% assign sections = "projects,analyses" | split: "," %}
 {% for section in sections %}
 <section id="{{ section }}" class="tab-panel" role="tabpanel">
   <h2 class="panel-title">{{ section | capitalize }}</h2>

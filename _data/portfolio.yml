@@ -1,7 +1,6 @@
-# Portfolio items, grouped into the four sub-tabs on the Portfolio page.
+# Portfolio items, grouped into sub-tabs on the Portfolio page (publications live in publications.yml).
 # Each item: title, year, summary, tags (tools/methods), links (label + url),
 # and optional note (shown in italics, e.g. "Confidential industry work").
-# To add a dashboard demo later, put its URL under links and remove the note.
 
 projects:
   - title: Barley pangenome graph (76 genomes)
@@ -16,17 +15,15 @@ projects:
         url: https://doi.org/10.1016/j.agrcom.2026.100131
 
   - title: MultiVis
-    year: 2018–present
+    year: 2018–2023
     summary: >-
-      Open-source Python package for statistical analysis and visualisation of multivariate
-      omics data: PCA and loadings plots, PCoA, clustered heatmaps, polar dendrograms,
-      spring-embedded networks and hierarchical edge bundles (D3.js). Published on PyPI and conda.
-    tags: [Python, D3.js, statsmodels, scikit-learn, NetworkX]
+      Open-source Python package I designed and developed at ECU for statistical analysis and
+      visualisation of multivariate omics data, including PCA and loadings plots, PCoA,
+      clustered heatmaps and polar dendrograms. Published on PyPI and conda.
+    tags: [Python, statsmodels, scikit-learn, Matplotlib]
     links:
       - label: GitHub
         url: https://github.com/brettChapman/multivis
-      - label: Tutorials
-        url: https://brettchapman.github.io/multivis_tutorials/
       - label: PyPI
         url: https://pypi.org/project/multivis/
 
@@ -84,43 +81,6 @@ projects:
       - label: WCGA tutorials (Zenodo)
         url: https://doi.org/10.5281/zenodo.21448532
 
-dashboards:
-  - title: Clinical genomics dashboard (R Shiny)
-    year: 2026
-    summary: >-
-      Interactive R Shiny app that presents clinical genomics results to
-      non-technical users.
-    tags: [R, Shiny, tidyverse]
-    links: []
-    note: Live demo link coming soon
-
-  - title: Clinical genomics dashboard (Streamlit)
-    year: 2026
-    summary: >-
-      Python and Streamlit app for interactive clinical genomics reporting.
-    tags: [Python, Streamlit, pandas]
-    links: []
-    note: Live demo link coming soon
-
-  - title: Dataiku workflows for RNA therapeutics
-    year: 2024–2026
-    summary: >-
-      Built Dataiku workflows and visualisations at PYC Therapeutics so bioinformatics and
-      clinical teams could track results across ASO and PMO programs and make decisions.
-    tags: [Dataiku, Python, R]
-    links: []
-    note: Confidential industry work
-
-  - title: Interactive multi-omics network visualisations
-    year: 2018–2023
-    summary: >-
-      Browser-based hierarchical edge bundle and network views from MultiVis for exploring
-      correlations across metabolites, transcripts and clinical variables.
-    tags: [D3.js, JavaScript, Python]
-    links:
-      - label: Tutorials
-        url: https://brettchapman.github.io/multivis_tutorials/
-
 analyses:
   - title: Longitudinal RNA-seq for RNA therapeutics
     year: 2024–2026
@@ -172,17 +132,6 @@ analyses:
     links:
       - label: Plant Biotech J 2023
         url: https://doi.org/10.1111/pbi.14077
-
-  - title: Metabolomics case studies
-    year: 2018–2023
-    summary: >-
-      Twelve reproducible notebooks across two published datasets (athlete metabolomics at
-      altitude and gastric cancer NMR) covering univariate statistics, PCA, PCoA, clustering
-      and network analysis. Runs in the browser through Binder.
-    tags: [Python, Jupyter, Binder, multivariate statistics]
-    links:
-      - label: Notebooks
-        url: https://github.com/brettChapman/multivis_tutorials
 
   - title: Proteogenomics for genome annotation
     year: 2011–2017

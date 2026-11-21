@@ -10,7 +10,7 @@ Layout inspired by [Jimmy Breen's page](https://github.com/jimmybgammyknee/jimmy
 | Tab | File | What it shows |
 |---|---|---|
 | About | `index.html` | Photo, intro, metrics, skills, selected publications |
-| Portfolio | `portfolio.html` | Sub-tabs for Projects, Dashboards, Analyses and Publications |
+| Portfolio | `portfolio.html` | Sub-tabs for Projects, Analyses and Publications |
 | Consultancy | `consultancy.html` | Services, who I work with, process. Can be switched off |
 | Notes | `notes.html` | Optional blog (off by default) |
 | CV | `cv.md` | Web CV (no phone number) |
@@ -23,7 +23,7 @@ All of these are plain text files you can edit directly on GitHub:
 - **Your details, links, metrics:** `_config.yml`
 - **Switch consultancy on/off:** in `_config.yml`, set `consultancy: enabled: true` or `false`. When off, the tab and home-page button disappear and `/consultancy/` shows a short "not taking new work" note with a `noindex` tag.
 - **Availability banner:** `availability:` in `_config.yml` (set to `""` to hide).
-- **Projects, dashboards, analyses:** `_data/portfolio.yml`. Add a `links:` entry when a demo goes live and remove the `note:` line.
+- **Projects and analyses:** `_data/portfolio.yml`. To add a new sub-tab, add a section there and list it in `portfolio.html`.
 - **Publications:** `_data/publications.yml`. Mark `first_author: true` and `selected: true` (shown on the home page).
 - **Citation metrics:** `metrics:` in `_config.yml`.
 - **Photo:** by default the site uses your GitHub avatar. To use a different photo, add it as `assets/img/brett.jpg` and set `author: avatar: /assets/img/brett.jpg`.
@@ -41,7 +41,7 @@ All of these are plain text files you can edit directly on GitHub:
 3. In the repository, go to **Settings → Pages**, set **Source** to *Deploy from a branch*, branch `main`, folder `/ (root)`.
 4. After a minute or two the site is live at https://brettchapman.github.io.
 
-Your existing project pages (for example `/multivis_tutorials/` and `/Nimbus_Cluster/`) keep working under the same domain.
+Your existing project pages (for example `/Nimbus_Cluster/`) keep working under the same domain.
 
 ## Previewing locally (optional)
 

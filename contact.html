@@ -1,0 +1,45 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+lead: Whether it's a role, a collaboration or a consulting project, I'd be glad to hear from you.
+---
+
+<div class="contact-grid">
+  <div class="contact-links">
+    <h2>Find me</h2>
+    {% include social-links.html class="social-list" labels=true %}
+    <p class="muted">Based in {{ site.author.location }} (AWST, UTC+8).</p>
+  </div>
+
+  <div class="contact-form-wrap">
+    {% if site.formspree_id != "" %}
+    <h2>Send a message</h2>
+    <form class="contact-form" action="https://formspree.io/f/{{ site.formspree_id }}" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" autocomplete="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+
+      <label for="topic">What's it about?</label>
+      <select id="topic" name="topic">
+        <option value="role">A job or contract role</option>
+        {% if site.consultancy.enabled %}<option value="consulting">A consulting project</option>{% endif %}
+        <option value="collaboration">A research collaboration</option>
+        <option value="other">Something else</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="7" required></textarea>
+
+      <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button type="submit" class="button">Send</button>
+    </form>
+    {% else %}
+    <h2>Email me</h2>
+    <p>The quickest way to reach me is by email. A line or two about what you have in mind is plenty to start with.</p>
+    <p><a class="button" href="mailto:{{ site.author.email }}?subject=Hello%20Brett">{{ site.author.email }}</a></p>
+    {% endif %}
+  </div>
+</div>

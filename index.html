@@ -1,0 +1,82 @@
+---
+layout: default
+title: About
+---
+
+<section class="hero">
+  <img class="avatar" src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name }}" width="168" height="168">
+  <div class="hero-text">
+    <p class="eyebrow">{{ site.author.location }}</p>
+    <h1 class="hero-title">Hi, I'm Brett.</h1>
+    <p class="hero-tagline">{{ site.tagline }}</p>
+    {% if site.availability != "" %}
+    <p class="availability"><span class="dot" aria-hidden="true"></span>{{ site.availability }}</p>
+    {% endif %}
+    <div class="cta-row">
+      <a class="button" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+      <a class="button button-outline" href="{{ '/portfolio/' | relative_url }}">See my work</a>
+      {% if site.consultancy.enabled %}
+      <a class="button button-outline" href="{{ '/consultancy/' | relative_url }}">Consulting</a>
+      {% endif %}
+    </div>
+    {% include social-links.html class="hero-social" %}
+  </div>
+</section>
+
+<section class="metrics" aria-label="Research metrics">
+  <div class="metric"><span class="metric-value">15+</span><span class="metric-label">years in genomics and data</span></div>
+  <div class="metric"><span class="metric-value">{{ site.metrics.papers }}</span><span class="metric-label">peer-reviewed papers</span></div>
+  <div class="metric"><span class="metric-value">{{ site.metrics.citations }}</span><span class="metric-label">citations</span></div>
+  <div class="metric"><span class="metric-value">{{ site.metrics.h_index }}</span><span class="metric-label">h-index</span></div>
+</section>
+<p class="metrics-note">Citation metrics from <a href="https://scholar.google.com/citations?user={{ site.social.scholar }}&amp;hl=en">Google Scholar</a>, {{ site.metrics.as_of }}.</p>
+
+<section class="about">
+  <h2>About me</h2>
+  <p class="intro">I'm a bioinformatician and data scientist based in Perth, Western Australia, with more than 15 years leading genomics and multi-omics projects across universities and the biotech industry. I turn large, messy biological datasets (short- and long-read sequencing, RNA-seq, proteomics and metabolomics) into clear, reproducible results that research and clinical teams can act on.</p>
+  <p>Most recently I was Senior Scientist 2 in Bioinformatics at PYC Therapeutics, analysing longitudinal RNA-seq and clinical variant data for rare-disease antisense oligonucleotide (ASO) and PMO therapeutic programs. Before that I spent four years as a Postdoctoral Research Fellow at the Western Crop Genetics Alliance, Murdoch University, where I built the first barley pangenome graph and contributed to international pangenome consortia for barley and oat.</p>
+  <p>My work has appeared in <em>Nature</em>, <em>Nature Genetics</em>, <em>Nature Plants</em> and <em>Science</em>, including the IWGSC bread wheat genome and the IBSC barley reference genome. I write analysis software in Python and R, run workloads on HPC and cloud, and enjoy explaining complex results to people who don't live in a terminal.</p>
+</section>
+
+<section class="skills">
+  <h2>What I do</h2>
+  <div class="card-grid cols-2">
+    <div class="card">
+      <h3>Genomics &amp; pangenomics</h3>
+      <p>Genome assembly and annotation, pangenome graphs (PGGB, minigraph, vg, odgi), structural variation, GWAS, genotyping and variant annotation.</p>
+    </div>
+    <div class="card">
+      <h3>Transcriptomics</h3>
+      <p>Bulk RNA-seq (STAR, Salmon), longitudinal differential expression with mixed-effects models (limma, edgeR, DESeq2), ORA/GSEA, and single-cell RNA-seq.</p>
+    </div>
+    <div class="card">
+      <h3>Multi-omics &amp; statistics</h3>
+      <p>Proteogenomics, proteomics and metabolomics, multivariate statistics (PCA, PLS-DA), integrative analysis, statistical analysis plans and machine learning in scikit-learn.</p>
+    </div>
+    <div class="card">
+      <h3>Pipelines, HPC &amp; reporting</h3>
+      <p>Reproducible workflows (Nextflow, Docker, Singularity, Slurm), Pawsey and cloud computing, and R Shiny, Streamlit, Dataiku and Quarto reporting.</p>
+    </div>
+  </div>
+</section>
+
+<section class="selected-pubs">
+  <h2>Selected publications</h2>
+  <ul class="pub-list compact">
+    {% assign selected = site.data.publications | where: "selected", true %}
+    {% for pub in selected limit: 6 %}
+      {% include publication.html pub=pub %}
+    {% endfor %}
+  </ul>
+  <p><a class="more-link" href="{{ '/portfolio/#publications' | relative_url }}">All publications &rarr;</a></p>
+</section>
+
+<section class="extra">
+  <h2>Some extra info</h2>
+  <ul>
+    <li>PhD in Information Technology (Bioinformatics) from Murdoch University, where I developed a bioinformatics framework for proteogenomics. I started out in the wet lab, running LC-MS and MALDI-TOF proteomics at Proteomics International.</li>
+    <li>I regularly secured competitive <a href="https://pawsey.org.au/">Pawsey Supercomputing Research Centre</a> allocations for my research group, including extending our access to the Setonix supercomputer, and managed the group's compute and data portals.</li>
+    <li>I've supervised PhD and Masters students and guest lectured in Omics Technologies and Bioinformatics at Murdoch University.</li>
+    <li>I'm a member of the <a href="https://www.abacbs.org/">Australian Bioinformatics and Computational Biology Society (ABACBS)</a>.</li>
+  </ul>
+</section>

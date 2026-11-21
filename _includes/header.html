@@ -1,0 +1,35 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="{{ '/' | relative_url }}">
+      <span class="logo-mark" aria-hidden="true">BC</span>
+      <span class="logo-text">{{ site.author.name }}</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {% for link in site.navigation %}
+          {% assign show = true %}
+          {% if link.requires %}
+            {% assign feature = site[link.requires] %}
+            {% unless feature.enabled %}{% assign show = false %}{% endunless %}
+          {% endif %}
+          {% if show %}
+            {% assign current = false %}
+            {% if link.url == "/" %}
+              {% if page.url == "/" or page.url == "/index.html" %}{% assign current = true %}{% endif %}
+            {% elsif page.url contains link.url %}
+              {% assign current = true %}
+            {% endif %}
+            <li><a href="{{ link.url | relative_url }}"{% if current %} class="current" aria-current="page"{% endif %}>{{ link.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        {% if site.social.github != "" %}
+        <li><a href="https://github.com/{{ site.social.github }}" class="nav-ext" target="_blank" rel="noopener">GitHub</a></li>
+        {% endif %}
+      </ul>
+    </nav>
+  </div>
+</header>

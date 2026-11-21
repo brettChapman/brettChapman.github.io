@@ -1,0 +1,105 @@
+# ---------------------------------------------------------------------------
+# Site settings for brettChapman.github.io
+# Edit this file to change your details, links and which tabs are shown.
+# After editing, commit and push: GitHub Pages rebuilds the site automatically.
+# ---------------------------------------------------------------------------
+
+title: Brett Chapman, PhD
+tagline: Senior Bioinformatician | Genomics & Multi-omics | Data Science
+description: >-
+  Bioinformatician and data scientist in Perth, Western Australia, with 15+ years
+  in genomics, pangenomics, transcriptomics and multi-omics across academia and biotech.
+url: "https://brettchapman.github.io"
+baseurl: ""
+lang: en-AU
+timezone: Australia/Perth
+
+author:
+  name: Brett Chapman
+  location: Perth, Western Australia
+  email: brett.chapman78@gmail.com
+  # Profile photo. Swap for a local file such as /assets/img/brett.jpg if you prefer.
+  avatar: https://avatars.githubusercontent.com/u/8529807?v=4
+
+# Profile links (leave a value blank to hide it)
+social:
+  linkedin: drbrettchapman
+  github: brettChapman
+  scholar: A_wYNAQAAAAJ
+  orcid: 0000-0003-4484-2253
+  twitter: ""
+
+# Headline metrics shown on the home page and Publications tab.
+# Update these from Google Scholar every so often.
+metrics:
+  as_of: November 2026
+  citations: "5,845"
+  h_index: 21
+  papers: "30+"
+
+# ---------------------------------------------------------------------------
+# Feature switches
+# ---------------------------------------------------------------------------
+
+# Consultancy tab: set enabled to false to hide the tab, the home-page
+# call-to-action and the consultancy content. The page then shows a short
+# "not currently taking engagements" note and is hidden from search engines.
+consultancy:
+  enabled: true
+
+# Availability banner on the home page (set to "" to hide it)
+availability: "Open to bioinformatics and data science roles in Perth, remote work, and short consulting projects."
+
+# Contact form via Formspree (free). Create a form at https://formspree.io,
+# then paste the form ID here (e.g. "xyzabcd"). Blank shows email links only.
+formspree_id: ""
+
+# Optional Notes/blog tab, like Jimmy Breen's posts. Add posts to _posts/
+# and set enabled to true.
+blog:
+  enabled: false
+
+# Optional Google Analytics 4 measurement ID (e.g. "G-XXXXXXX")
+google_analytics: ""
+
+# ---------------------------------------------------------------------------
+# Navigation. "requires" ties a tab to a feature switch above.
+# ---------------------------------------------------------------------------
+navigation:
+  - title: About
+    url: /
+  - title: Portfolio
+    url: /portfolio/
+  - title: Consultancy
+    url: /consultancy/
+    requires: consultancy
+  - title: Notes
+    url: /notes/
+    requires: blog
+  - title: CV
+    url: /cv/
+  - title: Contact
+    url: /contact/
+
+# ---------------------------------------------------------------------------
+# Build settings (GitHub Pages compatible, no custom plugins needed)
+# ---------------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /notes/:year/:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - node_modules

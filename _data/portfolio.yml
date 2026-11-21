@@ -1,0 +1,197 @@
+# Portfolio items, grouped into the four sub-tabs on the Portfolio page.
+# Each item: title, year, summary, tags (tools/methods), links (label + url),
+# and optional note (shown in italics, e.g. "Confidential industry work").
+# To add a dashboard demo later, put its URL under links and remove the note.
+
+projects:
+  - title: Barley pangenome graph (76 genomes)
+    year: 2020–2026
+    summary: >-
+      Led construction of the first barley genome graph, starting with 20 genomes and growing
+      to 76, embedding population-wide micro- and macro-scale variation in a single queryable
+      graph. First-author paper in Agriculture Communications (2026).
+    tags: [PGGB, minigraph, vg, odgi, Slurm, Pawsey Setonix]
+    links:
+      - label: Paper
+        url: https://doi.org/10.1016/j.agrcom.2026.100131
+
+  - title: MultiVis
+    year: 2018–present
+    summary: >-
+      Open-source Python package for statistical analysis and visualisation of multivariate
+      omics data: PCA and loadings plots, PCoA, clustered heatmaps, polar dendrograms,
+      spring-embedded networks and hierarchical edge bundles (D3.js). Published on PyPI and conda.
+    tags: [Python, D3.js, statsmodels, scikit-learn, NetworkX]
+    links:
+      - label: GitHub
+        url: https://github.com/brettChapman/multivis
+      - label: Tutorials
+        url: https://brettchapman.github.io/multivis_tutorials/
+      - label: PyPI
+        url: https://pypi.org/project/multivis/
+
+  - title: paf2pav
+    year: 2022
+    summary: >-
+      Linearises a PGGB/odgi pangenome graph into a presence/absence variation (PAV) matrix,
+      with tools to merge matrices across chromosomes, ready for the Panache pangenome browser.
+    tags: [Python, odgi, PAF, pangenomics]
+    links:
+      - label: GitHub
+        url: https://github.com/brettChapman/paf2pav
+
+  - title: VariantDB
+    year: 2023
+    summary: >-
+      Variant annotation and comparison workflow for genetic testing results. Annotates variants
+      against ClinVar and gnomAD and compares two individuals to flag shared genetic risk factors.
+    tags: [Python, Jupyter, ClinVar, gnomAD, Docker]
+    links:
+      - label: GitHub
+        url: https://github.com/brettChapman/VariantDB
+
+  - title: Bioinformatics container builds
+    year: 2020–2024
+    summary: >-
+      A collection of Docker and Singularity builds for genome annotation, alignment and
+      graphical pangenomics on HPC systems, used to keep large analyses reproducible.
+    tags: [Docker, Singularity, HPC]
+    links:
+      - label: GitHub
+        url: https://github.com/brettChapman/docker-builds
+
+  - title: Slurm cluster on Pawsey Nimbus
+    year: 2020
+    summary: >-
+      Scripts and a step-by-step guide for standing up a Slurm cluster with NFS, Munge and
+      Singularity on the Pawsey Nimbus research cloud.
+    tags: [Slurm, Bash, NFS, Singularity, Pawsey]
+    links:
+      - label: Guide
+        url: https://brettchapman.github.io/Nimbus_Cluster/
+      - label: GitHub
+        url: https://github.com/brettChapman/Nimbus_Cluster
+
+  - title: BarleyVarDB and WCGA database tutorials
+    year: 2020–2026
+    summary: >-
+      Co-developed BarleyVarDB, a database of barley genomic variation, and co-authored
+      tutorials for the Western Crop Genetics Alliance databases.
+    tags: [Databases, Genomic variation, Barley]
+    links:
+      - label: BarleyVarDB paper
+        url: https://doi.org/10.1093/database/baaa091
+      - label: WCGA tutorials (Zenodo)
+        url: https://doi.org/10.5281/zenodo.21448532
+
+dashboards:
+  - title: Clinical genomics dashboard (R Shiny)
+    year: 2026
+    summary: >-
+      Interactive R Shiny app that presents clinical genomics results to
+      non-technical users.
+    tags: [R, Shiny, tidyverse]
+    links: []
+    note: Live demo link coming soon
+
+  - title: Clinical genomics dashboard (Streamlit)
+    year: 2026
+    summary: >-
+      Python and Streamlit app for interactive clinical genomics reporting.
+    tags: [Python, Streamlit, pandas]
+    links: []
+    note: Live demo link coming soon
+
+  - title: Dataiku workflows for RNA therapeutics
+    year: 2024–2026
+    summary: >-
+      Built Dataiku workflows and visualisations at PYC Therapeutics so bioinformatics and
+      clinical teams could track results across ASO and PMO programs and make decisions.
+    tags: [Dataiku, Python, R]
+    links: []
+    note: Confidential industry work
+
+  - title: Interactive multi-omics network visualisations
+    year: 2018–2023
+    summary: >-
+      Browser-based hierarchical edge bundle and network views from MultiVis for exploring
+      correlations across metabolites, transcripts and clinical variables.
+    tags: [D3.js, JavaScript, Python]
+    links:
+      - label: Tutorials
+        url: https://brettchapman.github.io/multivis_tutorials/
+
+analyses:
+  - title: Longitudinal RNA-seq for RNA therapeutics
+    year: 2024–2026
+    summary: >-
+      Statistical analysis plans and longitudinal differential expression with repeated-measures
+      linear mixed-effects models across clinical cohorts and control cell lines, with
+      ORA and GSEA.
+    tags: [limma, edgeR, DESeq2, mixed models, GSEA]
+    links: []
+    note: Confidential industry work (PYC Therapeutics)
+
+  - title: Variant annotation and clinical interpretation
+    year: 2024–2026
+    summary: >-
+      Variant annotation and functional consequence assessment across clinical cohorts in
+      rare-disease programs, feeding genotype–phenotype interpretation.
+    tags: [VEP, ClinVar, gnomAD]
+    links: []
+    note: Confidential industry work (PYC Therapeutics)
+
+  - title: Structural variation in wild and domesticated barley
+    year: 2024
+    summary: >-
+      Contributed pangenome and structural variation analysis to the international barley
+      pangenome consortium across domesticated and wild germplasm.
+    tags: [Pangenomics, Structural variation, HPC]
+    links:
+      - label: Nature 2024
+        url: https://doi.org/10.1038/s41586-024-08187-1
+
+  - title: Barley and oat pan-transcriptomes
+    year: 2025–2026
+    summary: >-
+      Contributed to pan-transcriptome analyses showing genotype-dependent transcriptional
+      complexity in barley and building a pangenome and pantranscriptome of hexaploid oat.
+    tags: [RNA-seq, Pan-transcriptomics, Salmon, STAR]
+    links:
+      - label: Nature Genetics 2025
+        url: https://doi.org/10.1038/s41588-024-02069-y
+      - label: Nature 2026
+        url: https://doi.org/10.1038/s41586-025-09676-7
+
+  - title: GWAS and genotyping of crop genomes
+    year: 2020–2024
+    summary: >-
+      Genotyped crop populations from short- and long-read data and ran genome-wide association
+      studies for barley breeding research at the Western Crop Genetics Alliance.
+    tags: [GWAS, Linkage disequilibrium, Illumina, PacBio HiFi]
+    links:
+      - label: Plant Biotech J 2023
+        url: https://doi.org/10.1111/pbi.14077
+
+  - title: Metabolomics case studies
+    year: 2018–2023
+    summary: >-
+      Twelve reproducible notebooks across two published datasets (athlete metabolomics at
+      altitude and gastric cancer NMR) covering univariate statistics, PCA, PCoA, clustering
+      and network analysis. Runs in the browser through Binder.
+    tags: [Python, Jupyter, Binder, multivariate statistics]
+    links:
+      - label: Notebooks
+        url: https://github.com/brettChapman/multivis_tutorials
+
+  - title: Proteogenomics for genome annotation
+    year: 2011–2017
+    summary: >-
+      Developed a bioinformatics framework that uses mass spectrometry evidence to improve
+      gene models, applied to bread wheat, grapevine and bacterial genomes.
+    tags: [MS/MS, Proteogenomics, Genome annotation]
+    links:
+      - label: Grapevine (Proteomics 2017)
+        url: https://doi.org/10.1002/pmic.201700197
+      - label: Bacterial case study (Proteomics 2014)
+        url: https://doi.org/10.1002/pmic.201400185

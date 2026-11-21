@@ -1,0 +1,26 @@
+---
+layout: page
+title: Notes
+permalink: /notes/
+feature: blog
+lead: Occasional write-ups on genomics, data science and tools I find useful.
+---
+{% comment %}Switch on with `blog: enabled: true` in _config.yml and add posts to _posts/.{% endcomment %}
+
+{% if site.blog.enabled %}
+  {% if site.posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%-d %B %Y" }}</span>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.description | default: post.excerpt | strip_html | truncate: 200 }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No notes yet. Check back soon.</p>
+  {% endif %}
+{% else %}
+  <p>Nothing here yet. Take a look at my <a href="{{ '/portfolio/' | relative_url }}">portfolio</a> instead.</p>
+{% endif %}

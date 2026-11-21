@@ -1,0 +1,225 @@
+# Publications, newest first.
+# Fields: year, authors, title, venue, details, doi, url (if no DOI),
+#         first_author: true for first-author papers, selected: true to feature on the home page,
+#         type: article | chapter | data | thesis
+# Full list: https://scholar.google.com/citations?user=A_wYNAQAAAAJ
+
+- year: 2026
+  authors: "Chapman B, Dang VH, He T, Hill CB, Hu H, Wang P, Bayer PE, Edwards D, Keeble-Gagnère G, Tibbits JFG, Li C"
+  title: "The graphical barley pangenome reveals micro- and macro-scale genetic variation"
+  venue: "Agriculture Communications"
+  details: "4(1): 100131"
+  doi: "10.1016/j.agrcom.2026.100131"
+  first_author: true
+  selected: true
+  type: article
+
+- year: 2026
+  authors: "Avni R, Kamal NM, Bitz L, et al. (incl. Chapman B)"
+  title: "A pangenome and pantranscriptome of hexaploid oat"
+  venue: "Nature"
+  details: "649: 131–139"
+  doi: "10.1038/s41586-025-09676-7"
+  selected: true
+  type: article
+
+- year: 2025
+  authors: "Feng H, Du Q, Jiang Y, et al. (incl. Chapman B)"
+  title: "Hordeum I genome unlocks adaptive evolution and genetic potential for crop improvement"
+  venue: "Nature Plants"
+  details: "11: 438–452"
+  doi: "10.1038/s41477-025-01942-w"
+  selected: true
+  type: article
+
+- year: 2025
+  authors: "Guo W, Schreiber M, Marosi VB, et al. (incl. Chapman B)"
+  title: "A barley pan-transcriptome reveals layers of genotype-dependent transcriptional complexity"
+  venue: "Nature Genetics"
+  details: "57: 441–450"
+  doi: "10.1038/s41588-024-02069-y"
+  selected: true
+  type: article
+
+- year: 2024
+  authors: "Jayakodi M, Lu Q, Pidon H, et al. (incl. Chapman B)"
+  title: "Structural variation in the pangenome of wild and domesticated barley"
+  venue: "Nature"
+  details: "636: 654–662"
+  doi: "10.1038/s41586-024-08187-1"
+  selected: true
+  type: article
+
+- year: 2024
+  authors: "Tong C, Jia Y, Hu H, Zeng Z, Chapman B, Li C"
+  title: "Pangenome and pantranscriptome as the new reference for gene-family characterization: a case study of basic helix-loop-helix (bHLH) genes in barley"
+  venue: "Plant Communications"
+  details: "6(1): 101190"
+  doi: "10.1016/j.xplc.2024.101190"
+  type: article
+
+- year: 2023
+  authors: "Hu H, Wang P, Angessa TT, Zhang X, et al. (incl. Chapman B)"
+  title: "Genomic signatures of barley breeding for environmental adaptation to the new continents"
+  venue: "Plant Biotechnology Journal"
+  details: "21(9): 1719–1721"
+  doi: "10.1111/pbi.14077"
+  type: article
+
+- year: 2023
+  authors: "Jia Y, Xu M, Hu H, Chapman B, Watt C, Buerte B, Han N, Zhu M, Bian H, Li C, Zeng Z"
+  title: "Comparative gene retention analysis in barley, wild emmer, and bread wheat pangenome lines reveals factors affecting gene retention following gene duplication"
+  venue: "BMC Biology"
+  details: "21: 25"
+  doi: "10.1186/s12915-022-01503-z"
+  type: article
+
+- year: 2022
+  authors: "Zhang W, Tan C, Hu H, Pan R, et al. (incl. Chapman B)"
+  title: "Genome architecture and diverged selection shaping pattern of genomic differentiation in wild barley"
+  venue: "Plant Biotechnology Journal"
+  details: "21(1): 46–62"
+  doi: "10.1111/pbi.13917"
+  type: article
+
+- year: 2022
+  authors: "Bayer PE, Petereit J, Durant É, Monat C, Rouard M, Hu H, Chapman B, Li C, Cheng S, Batley J, Edwards D"
+  title: "Wheat Panache: a pangenome graph database representing presence–absence variation across sixteen bread wheat genomes"
+  venue: "The Plant Genome"
+  details: "15(3): e20221"
+  doi: "10.1002/tpg2.20221"
+  type: article
+
+- year: 2020
+  authors: "Tan C, Chapman B, Wang P, Zhang Q, Zhou G, Zhang X-Q, Barrero RA, Bellgard MI, Li C"
+  title: "BarleyVarDB: a database of barley genomic variation"
+  venue: "Database"
+  details: "2020: baaa091"
+  doi: "10.1093/database/baaa091"
+  type: article
+
+- year: 2018
+  authors: "Prade VM, Gundlach H, Twardziok S, Chapman B, et al."
+  title: "The pseudogenes of barley"
+  venue: "The Plant Journal"
+  details: "93(3): 502–514"
+  doi: "10.1111/tpj.13794"
+  type: article
+
+- year: 2017
+  authors: "Chapman B, Bellgard M"
+  title: "Plant proteogenomics: improvements to the grapevine genome annotation"
+  venue: "Proteomics"
+  details: "17(21): 1700197"
+  doi: "10.1002/pmic.201700197"
+  first_author: true
+  type: article
+
+- year: 2017
+  authors: "Mascher M, Gundlach H, Himmelbach A, et al. (incl. Chapman B)"
+  title: "A chromosome conformation capture ordered sequence of the barley genome"
+  venue: "Nature"
+  details: "544: 427–433"
+  doi: "10.1038/nature22043"
+  selected: true
+  type: article
+
+- year: 2017
+  authors: "Beier S, Himmelbach A, Colmsee C, Zhang X-Q, et al. (incl. Chapman B)"
+  title: "Construction of a map-based reference genome sequence for barley, Hordeum vulgare L."
+  venue: "Scientific Data"
+  details: "4: 170044"
+  doi: "10.1038/sdata.2017.44"
+  type: article
+
+- year: 2017
+  authors: "Barrero RA, Guerrero FD, Black M, McCooke JK, Chapman B, et al."
+  title: "Gene-enriched draft genome of the cattle tick Rhipicephalus microplus: assembly by the hybrid Pacific Biosciences/Illumina approach enabled analysis of the highly repetitive genome"
+  venue: "International Journal for Parasitology"
+  details: "47(9): 569–583"
+  doi: "10.1016/j.ijpara.2017.03.007"
+  type: article
+
+- year: 2015
+  authors: "Chapman B"
+  title: "Developing a bioinformatics framework for proteogenomics"
+  venue: "PhD thesis, Murdoch University"
+  details: ""
+  url: "https://researchportal.murdoch.edu.au/"
+  first_author: true
+  type: thesis
+
+- year: 2014
+  authors: "International Wheat Genome Sequencing Consortium (incl. Chapman B)"
+  title: "A chromosome-based draft sequence of the hexaploid bread wheat (Triticum aestivum) genome"
+  venue: "Science"
+  details: "345(6194): 1251788"
+  doi: "10.1126/science.1251788"
+  selected: true
+  type: article
+
+- year: 2014
+  authors: "Marcussen T, Sandve SR, Heier L, et al. (incl. Chapman B)"
+  title: "Ancient hybridizations among the ancestral genomes of bread wheat"
+  venue: "Science"
+  details: "345(6194): 1250092"
+  doi: "10.1126/science.1250092"
+  type: article
+
+- year: 2014
+  authors: "Chapman B, Bellgard M"
+  title: "High-throughput parallel proteogenomics: a bacterial case study"
+  venue: "Proteomics"
+  details: "14(23–24): 2780–2789"
+  doi: "10.1002/pmic.201400185"
+  first_author: true
+  type: article
+
+- year: 2013
+  authors: "Chapman B, Castellana N, Apffel A, et al."
+  title: "Plant proteogenomics: from protein extraction to improved gene predictions"
+  venue: "Methods in Molecular Biology"
+  details: ""
+  doi: "10.1007/978-1-62703-360-2_21"
+  first_author: true
+  type: chapter
+
+- year: 2013
+  authors: "Bellgard M, Taplin R, Chapman B, Livk A, Wellington C, Hunter AA, Lipscombe RJ"
+  title: "Classification of fish samples via an integrated proteomics and bioinformatics approach"
+  venue: "Proteomics"
+  details: "13(21): 3124–3130"
+  doi: "10.1002/pmic.201200426"
+  type: article
+
+- year: 2012
+  authors: "Black M, Moolhuijzen P, Chapman B, et al."
+  title: "The genetics of symbiotic nitrogen fixation: comparative genomics of 14 rhizobia strains by resolution of protein clusters"
+  venue: "Genes"
+  details: "3(1): 138–166"
+  doi: "10.3390/genes3010138"
+  type: article
+
+- year: 2011
+  authors: "Barrero RA, Chapman B, Yang Y, et al."
+  title: "De novo assembly of Euphorbia fischeriana root transcriptome identifies prostratin pathway related genes"
+  venue: "BMC Genomics"
+  details: "12: 600"
+  doi: "10.1186/1471-2164-12-600"
+  type: article
+
+- year: 2011
+  authors: "Roessner U, Nahid A, Chapman B, et al."
+  title: "Metabolomics: the combination of analytical biochemistry, biology, and informatics"
+  venue: "Comprehensive Biotechnology (2nd ed.), Elsevier"
+  details: ""
+  doi: "10.1016/b978-0-08-088504-9.00052-0"
+  type: chapter
+
+- year: 2010
+  authors: "Wanchanthuek P, Bellgard MI, La T, et al. (incl. Chapman B)"
+  title: "The complete genome sequence of the pathogenic intestinal spirochete Brachyspira pilosicoli and comparison with other Brachyspira genomes"
+  venue: "PLoS ONE"
+  details: "5(7): e11455"
+  doi: "10.1371/journal.pone.0011455"
+  type: article

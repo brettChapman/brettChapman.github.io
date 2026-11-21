@@ -1,0 +1,9 @@
+{% assign p = include.pub %}
+<li class="pub{% if p.first_author %} pub-first{% endif %}" data-flags="all{{ include.flags }}">
+  <span class="pub-year">{{ p.year }}</span>
+  <div class="pub-body">
+    <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>{% elsif p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+    <span class="pub-authors">{{ p.authors | replace: "Chapman B", "<strong>Chapman B</strong>" }}</span>
+    <span class="pub-venue"><em>{{ p.venue }}</em>{% if p.details != "" and p.details %} {{ p.details }}{% endif %}{% if p.first_author %} <span class="badge">First author</span>{% endif %}</span>
+  </div>
+</li>

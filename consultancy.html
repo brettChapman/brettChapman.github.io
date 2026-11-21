@@ -1,0 +1,97 @@
+---
+layout: page
+title: Consultancy
+permalink: /consultancy/
+heading: false
+feature: consultancy
+---
+{% comment %}
+  Switch this page on or off with `consultancy: enabled:` in _config.yml.
+  When disabled, the tab and home-page button disappear and this page shows a short note.
+{% endcomment %}
+
+{% if site.consultancy.enabled %}
+
+<header class="page-header">
+  <h1 class="page-title">Bioinformatics consulting</h1>
+  <p class="lead">Short, well-scoped analysis projects for research groups and biotech companies in precision medicine and precision agriculture. Scoped to your question and your budget.</p>
+  <div class="cta-row">
+    <a class="button" href="{{ '/contact/' | relative_url }}?topic=consulting">Start a conversation</a>
+    <a class="button button-outline" href="{{ '/portfolio/' | relative_url }}">See past work</a>
+  </div>
+</header>
+
+<section>
+  <h2>How I can help</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>RNA-seq &amp; transcriptomics</h3>
+      <p>QC, alignment and quantification, differential expression including longitudinal and repeated-measures designs, pathway enrichment (ORA, GSEA) and clear figures.</p>
+    </div>
+    <div class="card">
+      <h3>Genomics &amp; variants</h3>
+      <p>Variant annotation and interpretation, structural variation, GWAS, genome assembly and annotation, and pangenome graph construction for crops.</p>
+    </div>
+    <div class="card">
+      <h3>Multi-omics &amp; statistics</h3>
+      <p>Proteomics and metabolomics analysis, multivariate statistics, integrative analysis and statistical analysis plans written before the data arrives.</p>
+    </div>
+    <div class="card">
+      <h3>Pipelines &amp; HPC</h3>
+      <p>Reproducible workflows with Nextflow, Docker and Singularity, Slurm on HPC or cloud, and help preparing Pawsey compute allocation applications.</p>
+    </div>
+    <div class="card">
+      <h3>Dashboards &amp; reports</h3>
+      <p>R Shiny and Streamlit apps and Quarto reports that let non-technical colleagues explore results without waiting on a bioinformatician.</p>
+    </div>
+    <div class="card">
+      <h3>Training &amp; mentoring</h3>
+      <p>Hands-on sessions in Python, R, statistics and bioinformatics for lab members, students and early-career researchers.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Who I work with</h2>
+  <ul class="checklist">
+    <li>University and institute research groups without a dedicated bioinformatician</li>
+    <li>Biotech start-ups that need analysis capacity before hiring</li>
+    <li>Precision medicine and RNA therapeutics teams working with sequencing and clinical cohort data</li>
+    <li>Plant breeding and precision agriculture groups working with crop genomes</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li><strong>Intro call.</strong> A short call to understand your question, data and timeline.</li>
+    <li><strong>Scope and quote.</strong> A written scope with deliverables and a fixed quote or block of hours that fits your budget.</li>
+    <li><strong>Analysis.</strong> Regular check-ins so you see results early and can steer.</li>
+    <li><strong>Handover.</strong> A report, figures and documented, reproducible code you own.</li>
+  </ol>
+</section>
+
+<section class="fine-print">
+  <h2>Practical details</h2>
+  <ul>
+    <li>Based in Perth (AWST, UTC+8), working remotely with clients across Australia and the Asia-Pacific.</li>
+    <li>Australian ABN-registered sole trader, invoicing in AUD.</li>
+    <li>Happy to work under an NDA, and within your own computing environment when data can't leave it.</li>
+  </ul>
+</section>
+
+<section class="cta-panel">
+  <h2>Have a project in mind?</h2>
+  <p>Tell me a little about your data and what you're trying to find out. I'll get back to you to arrange a chat.</p>
+  <a class="button" href="{{ '/contact/' | relative_url }}?topic=consulting">Get in touch</a>
+</section>
+
+{% else %}
+
+<header class="page-header">
+  <h1 class="page-title">Consulting</h1>
+</header>
+<p class="lead">I'm not taking on new consulting work at the moment.</p>
+<p>If you'd like to talk about a role or a collaboration, I'd still love to hear from you. Head to the <a href="{{ '/contact/' | relative_url }}">contact page</a>.</p>
+
+{% endif %}

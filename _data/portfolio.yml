@@ -69,16 +69,13 @@ projects:
       - label: GitHub
         url: https://github.com/brettChapman/Nimbus_Cluster
 
-  - title: BarleyVarDB and WCGA database tutorials
-    year: 2020–2026
+  - title: WCGA database tutorials
+    year: 2026
     summary: >-
-      Co-developed BarleyVarDB, a database of barley genomic variation, and co-authored
-      tutorials for the Western Crop Genetics Alliance databases.
-    tags: [Databases, Genomic variation, Barley]
+      Co-authored tutorials for the Western Crop Genetics Alliance databases.
+    tags: [Databases, Barley, Tutorials]
     links:
-      - label: BarleyVarDB paper
-        url: https://doi.org/10.1093/database/baaa091
-      - label: WCGA tutorials (Zenodo)
+      - label: Zenodo
         url: https://doi.org/10.5281/zenodo.21448532
 
 analyses:

@@ -9,7 +9,7 @@ projects:
       Led construction of the first barley genome graph, starting with 20 genomes and growing
       to 76, embedding population-wide micro- and macro-scale variation in a single queryable
       graph. First-author paper in Agriculture Communications (2026).
-    tags: [PGGB, Minigraph-cactus, vg, odgi, Pawsey Setonix]
+    tags: [PGGB, Minigraph-Cactus, vg, odgi, Pawsey Setonix]
     links:
       - label: Paper
         url: https://doi.org/10.1016/j.agrcom.2026.100131
@@ -70,10 +70,10 @@ projects:
       - label: GitHub
         url: https://github.com/brettChapman/Nimbus_Cluster
 
-  - title: WCGA Barley and Oatdatabase tutorials
+  - title: WCGA barley and oat database tutorials
     year: 2026
     summary: >-
-      Co-authored tutorials for the Western Crop Genetics Alliance Barley and Oat databases.
+      Co-authored tutorials for the Western Crop Genetics Alliance barley and oat databases.
     tags: [Databases, Barley, Oat, JBrowse, Panache, Tutorials]
     links:
       - label: Zenodo

@@ -70,7 +70,7 @@ I contribute to international genome consortia for wheat, barley and oat, with p
 `2020–24` <br>
 **Postdoctoral Research Fellow**, Western Crop Genetics Alliance, Murdoch University (Perth, WA)
 
-- Built the first barley genome graph (20, then 76 genomes) with PGGB, minigraph, vg and odgi.
+- Built the first barley genome graph (20, then 76 genomes) with PGGB, Minigraph-Cactus, vg and odgi.
 - Ran GWAS and genotyped crop genomes; analysed structural variation across domesticated and wild germplasm.
 - Large-scale pangenome and pan-transcriptome analyses published in *Nature*, *Nature Genetics* and *Nature Plants*.
 - Reproducible HPC workflows for genome assembly, annotation and comparative genomics, and Python and R pipelines for genomic and transcriptomic data integration.
@@ -109,7 +109,7 @@ I contribute to international genome consortia for wheat, barley and oat, with p
 
 ## Research and technical expertise
 
-**Genomics and pangenomics.** Pangenome graph construction and analysis (PGGB, minigraph, vg, odgi); genome assembly, annotation and gene prediction; structural variation and CNV analysis; population genomics; GWAS and linkage disequilibrium; genotyping from Illumina and PacBio HiFi data; comparative genomics; variant annotation (VEP).
+**Genomics and pangenomics.** Pangenome graph construction and analysis (PGGB, Minigraph-Cactus, vg, odgi); genome assembly, annotation and gene prediction; structural variation and CNV analysis; population genomics; GWAS and linkage disequilibrium; genotyping from Illumina and PacBio HiFi data; comparative genomics; variant annotation (VEP).
 
 **Transcriptomics.** Pan-transcriptome analysis; bulk RNA-seq (STAR, Salmon); longitudinal differential expression (limma, edgeR, DESeq2) with ORA and GSEA; single-cell RNA-seq (Seurat, Scanpy, Monocle3) and TCR repertoire analysis (scirpy, scRepertoire).
 
@@ -125,7 +125,7 @@ I contribute to international genome consortia for wheat, barley and oat, with p
 
 ## Selected publications
 
-Co-author of more than 30 peer-reviewed publications (h-index {{ site.metrics.h_index }}; {{ site.metrics.citations }} citations, Google Scholar, {{ site.metrics.as_of }}). See the [full list](/portfolio/#publications).
+Co-author of {{ site.metrics.papers }} publications (h-index {{ site.metrics.h_index }}; {{ site.metrics.citations }} citations, Google Scholar, {{ site.metrics.as_of }}). See the [full list](/portfolio/#publications).
 
 - **Chapman B** et al. (2026). The graphical barley pangenome reveals micro- and macro-scale genetic variation. *Agriculture Communications* 4(1): 100131. [doi](https://doi.org/10.1016/j.agrcom.2026.100131)
 - Avni R et al. (2026). A pangenome and pantranscriptome of hexaploid oat. *Nature* 649: 131–139. [doi](https://doi.org/10.1038/s41586-025-09676-7)

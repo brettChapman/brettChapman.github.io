@@ -86,7 +86,7 @@ analyses:
       Statistical analysis and longitudinal differential expression with repeated-measures
       linear mixed-effects models across clinical cohorts and control cell lines, with
       ORA and GSEA.
-    tags: [R, limma, edgeR, DESeq2, mixed models, ORA, GSEA]
+    tags: [RNA-seq, Salmon, STAR, limma, edgeR, DESeq2, mixed models, ORA, GSEA]
     links: []
     note: Confidential industry work (PYC Therapeutics)
 
@@ -94,7 +94,8 @@ analyses:
     year: 2024–2026
     summary: >-
       Variant annotation and functional consequence assessment across clinical cohorts in
-      rare-disease programs, feeding genotype–phenotype interpretation.
+      rare-disease programs, feeding genotype–phenotype interpretation, and resolving cis/trans phasing
+       of variants in compound heterozygotes.
     tags: [VEP, ClinVar, gnomAD, SpliceAI, HGVS, ACMG, Orphanet, OMIM, LOVD]
     links: []
     note: Confidential industry work (PYC Therapeutics)
@@ -138,7 +139,11 @@ analyses:
       gene models, applied to bread wheat, grapevine and bacterial genomes.
     tags: [MS/MS, Proteogenomics, Genome annotation]
     links:
-      - label: Grapevine (Proteomics 2017)
+      - label: Developing a bioinformatics framework for proteogenomics (PhD 2015)
+        url: https://researchportal.murdoch.edu.au/esploro/outputs/991005541865807891
+      - label: Bread wheat case study(Science 2014)
+        url: https://doi.org/10.1126/science.1251788
+      - label: Grapevine case study (Proteomics 2017)
         url: https://doi.org/10.1002/pmic.201700197
       - label: Bacterial case study (Proteomics 2014)
         url: https://doi.org/10.1002/pmic.201400185

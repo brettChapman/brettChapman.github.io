@@ -54,7 +54,7 @@ availability: "Open to bioinformatics and data science roles in Perth, remote wo
 # then paste the form ID here (e.g. "xyzabcd"). Blank shows email links only.
 formspree_id: ""
 
-# Optional Notes/blog tab, like Jimmy Breen's posts. Add posts to _posts/
+# Optional Notes/blog tab. Add posts to _posts/
 # and set enabled to true.
 blog:
   enabled: false

@@ -135,14 +135,13 @@ analyses:
   - title: Proteogenomics for genome annotation
     year: 2011–2017
     summary: >-
-      Developed a bioinformatics framework that uses mass spectrometry evidence to improve
-      gene models, applied to bread wheat, grapevine and bacterial genomes.
+      Developed a bioinformatics framework during my PhD that uses mass spectrometry evidence to
+      improve gene models. Published case studies on grapevine and bacterial genomes; the framework
+      was also applied to bread wheat in my thesis.
     tags: [MS/MS, Proteogenomics, Genome annotation]
     links:
       - label: Developing a bioinformatics framework for proteogenomics (PhD 2015)
         url: https://researchportal.murdoch.edu.au/esploro/outputs/991005541865807891
-      - label: Bread wheat case study (Science 2014)
-        url: https://doi.org/10.1126/science.1251788
       - label: Grapevine case study (Proteomics 2017)
         url: https://doi.org/10.1002/pmic.201700197
       - label: Bacterial case study (Proteomics 2014)

@@ -40,7 +40,7 @@ I contribute to international genome consortia for wheat, barley and oat, with p
 
 - Led construction of the first barley pangenome graph, spanning 20 and later 76 genomes (first author, *Agriculture Communications* 2026).
 - Contributed to international pangenome studies of barley (*Nature* 2024), the barley pan-transcriptome (*Nature Genetics* 2025), the Hordeum I genome (*Nature Plants* 2025) and hexaploid oat (*Nature* 2026).
-- Contributed proteogenomic analysis to the IWGSC bread wheat genome (*Science* 2014) and the IBSC barley reference genome (*Nature* 2017).
+- Co-author on the IWGSC bread wheat genome (*Science* 2014) and the IBSC barley reference genome (*Nature* 2017).
 - Developed a bioinformatics framework for proteogenomics (PhD), presented at PAG Asia and the Australia–China Centre for Wheat Improvement in Beijing (2013).
 - Designed and developed MultiVis, an open-source statistical analysis and visualisation framework for multi-omics data.
 - Longitudinal RNA-seq with repeated-measures mixed-effects models, and variant analysis with functional consequence assessment, in clinical cohorts for rare-disease RNA therapeutic programs.

@@ -9,7 +9,7 @@ projects:
       Led construction of the first barley genome graph, starting with 20 genomes and growing
       to 76, embedding population-wide micro- and macro-scale variation in a single queryable
       graph. First-author paper in Agriculture Communications (2026).
-    tags: [PGGB, Minigraph-Cactus, vg, odgi, Pawsey Setonix]
+    tags: [PGGB, Minigraph-Cactus, vg, odgi, Pawsey Setonix, DUG]
     links:
       - label: Paper
         url: https://doi.org/10.1016/j.agrcom.2026.100131
@@ -95,8 +95,8 @@ analyses:
     summary: >-
       Variant annotation and functional consequence assessment across clinical cohorts in
       rare-disease programs, feeding genotype–phenotype interpretation, and resolving cis/trans phasing
-       of variants in compound heterozygotes.
-    tags: [VEP, ClinVar, gnomAD, SpliceAI, HGVS, ACMG, Orphanet, OMIM, LOVD]
+       of variants in compound heterozygotes using long-read sequencing.
+    tags: [PacBio HiFi, VEP, ClinVar, gnomAD, SpliceAI, HGVS, ACMG, Orphanet, OMIM, LOVD]
     links: []
     note: Confidential industry work (PYC Therapeutics)
 
@@ -141,7 +141,7 @@ analyses:
     links:
       - label: Developing a bioinformatics framework for proteogenomics (PhD 2015)
         url: https://researchportal.murdoch.edu.au/esploro/outputs/991005541865807891
-      - label: Bread wheat case study(Science 2014)
+      - label: Bread wheat case study (Science 2014)
         url: https://doi.org/10.1126/science.1251788
       - label: Grapevine case study (Proteomics 2017)
         url: https://doi.org/10.1002/pmic.201700197
